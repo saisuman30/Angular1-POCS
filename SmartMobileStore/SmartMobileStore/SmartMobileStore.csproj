@@ -101,14 +101,13 @@
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="smartmobileApp\controllers\MobilesController.js" />
     <Content Include="smartmobileApp\modules\smartmobileApp.js" />
+    <Content Include="smartmobileApp\services\mobileServices.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="smartmobileApp\services\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

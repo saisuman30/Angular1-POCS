@@ -1,27 +1,31 @@
-﻿(function () {
+﻿(function (app) {
 	
-	var mobileController = function ($scope) {
-		$scope.mobiles = [
-			{
-				mobileName: "ABC",
-				modelId: 93338,
-				features: ["2GB RAM","32GB Memory","LTE Support"],
-				processor: "Quadcore-Snapdragon-Processor",
-				price:5000
-			},
-			{
-				mobileName: "PQR",
-				modelId:839393,
-				features: ["3GB RAM", "64GB Memory", "LTE Support","Finger Print Sensor"],
-				processor: "OctaCore-Snapdragon-Processor",
-				price: 6000
+	var mobileController = function ($scope, mobileService,$timeout) {
+
+		var init = function () {
+			$scope.mobiles = mobileService.getMobiles();
+		}
+
+		$scope.selectMobile = function (mobile) {
+
+			for (var i = 0; i < $scope.mobiles.length; i++) {
+				$scope.mobiles[i].approved = false;
 			}
+			mobile.approved = !mobile.approved;
+			if (mobileService.selectMobile(mobile.modelId)) {
+				$scope.status = 'You have made great decision';
+				$timeout(
+					function () {
+						$scope.status = null;
+					}, 1000
+				);
+			}
+		};
 
-
-
-		]
+		init();
+		
 	};
 
-	app.controller("MobilesController", ["$scope", mobileController]);
+	app.controller("MobilesController", ["$scope","mobileService","$timeout", mobileController]);
 
 }(angular.module("smartmobileModule")));
