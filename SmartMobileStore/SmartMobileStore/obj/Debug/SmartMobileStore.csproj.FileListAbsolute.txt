@@ -32,3 +32,11 @@ D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\bin\Micr
 D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\obj\Debug\SmartMobileStore.csprojResolveAssemblyReference.cache
 D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\obj\Debug\SmartMobileStore.dll
 D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\obj\Debug\SmartMobileStore.pdb
+D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\bin\Newtonsoft.Json.dll
+D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\bin\System.Net.Http.Formatting.dll
+D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\bin\System.Web.Http.dll
+D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\bin\Newtonsoft.Json.xml
+D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\bin\System.Net.Http.Formatting.xml
+D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\bin\System.Web.Http.xml
+D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\bin\System.Web.Http.WebHost.dll
+D:\Suman\POC's\Angular1\Angular1-POCS\SmartMobileStore\SmartMobileStore\bin\System.Web.Http.WebHost.xml
