@@ -25,7 +25,7 @@
 				$timeout(
 					function () {
 						$scope.status = null;
-					}, 1000
+					}, 2000
 				);
 			}
 		};

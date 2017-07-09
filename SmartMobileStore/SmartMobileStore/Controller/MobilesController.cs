@@ -11,17 +11,9 @@ namespace SmartMobileStore.Controller
     {
         public IHttpActionResult GetAllMobiles()
         {
-            var model = new List<Mobile>()
-           {
+            var db = new MobileDb();          
 
-               new Mobile(){mobileName="ABC",modelId=3939,price=5000,processor="Quadcore-Snapdragon-Processor",approved=false,
-               features=new string[]{"2GB RAM", "32GB Memory", "LTE Support"}},
-
-               new Mobile(){mobileName="PQR",modelId=3838,price=6000,processor="OctaCore-Snapdragon-Processor",approved=false,
-               features=new string[]{"3GB RAM", "64GB Memory", "LTE Support", "Finger Print Sensor"}}
-           };
-
-            return Ok(model);
+            return Ok(db.Mobiles);
         }
     }
 }   
